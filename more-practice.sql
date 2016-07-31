@@ -11,9 +11,9 @@ VALUES (2015, 'Subaru', 'Outback');
 -- CREATE TABLE
 
 CREATE TABLE awards (
-    winner_id integer NOT NULL,
-    name character varying(50) NOT NULL,
-    year numeric(4,0) NOT NULL
+    winner_id INTEGER NOT NULL,
+    name VARCHAR(50) NOT NULL,
+    year NUMERIC(4,0) NOT NULL
 );
 
 -- More INSERT
